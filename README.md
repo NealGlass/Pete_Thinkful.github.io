@@ -1,1 +1,1 @@
-# Pete_Thinkful
+# Hello! This is the first website I helped design and create for my Chegg Skills Web Development certification. Pete Thinkful is an imaginary artist and this is his website to showcase his bio and art as well as how to contact him.
