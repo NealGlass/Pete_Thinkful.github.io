@@ -95,11 +95,6 @@ footer{
 a:link { color: #d62828; }
 a:hover { color: #f77f00; }
 
-article div{
-  text-align: center;
-  width: 100%;
-}
-
 div.ordered{
   text-align: left;
 }
