@@ -1,39 +1,33 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
+  background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
-  margin-left: 350px;
-  margin-right: 350px;
-  background-color: #eae2b7
+ 
+  margin-left:450px;
+  margin-right:450px;
 }
 
-header {
-  text-align: center;
-  color: black;
-  background-color: #eae2b7;
-  font-size: 16px;
-}
-
-nav{
-  text-align: center;
-  color: red;
-  background-color: #eae2b7;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-/* Set the font family for any h1, h2, or h3 heading */
+/* Headings */
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-}
-h1,h2,h3,h4 {
   text-align: center;
-  color: black;
+}
+
+/* Header */
+header  {
+  text-align: center;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
 }
 
 article {
@@ -41,67 +35,114 @@ article {
 }
 
 article div {
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
+/* Paragraphs */
 p {
   line-height: 1.5;
-  
 }
 
-/* The div container constrains the content width within the main container to 600px */
-div {
-  margin: auto;
-  width: 600px;
+/* Links */
+a:link {
+  color: #d62828;
 }
 
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-hr {
-  border: 1px solid black;
-  width: 50%;
-}
-
-/* Add your solution below */
-
-.image-circle {
-  border-radius: 50%;
+border: 2px solid #003049;
   border-color: #003049;
   border-style: solid;
   border-width: 2px;
-  margin: 0 auto;
-  display: block;
 }
-.contact {
-  text-align: center;
-  color: black;
-  background-color: #eae2b7;
-  text-decoration: none;
+.image-circle {
+  border-radius: 50%;
+  border: #003049;
 }
 
-footer{
+
+/* Footer */
+footer {
   text-align: center;
 }
 
-:any-link{
-  color: #d62828;
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+/* My code */
+
+.header-section {
+  display: flex;
+  direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   text-align: center;
 }
-a:link { color: #d62828; }
-a:hover { color: #f77f00; }
 
-div.ordered{
+.bio-row {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  gap: 20px;
+}
+
+.bio-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+.bio-heading {
+  text-align: center;
+}
+
+.bio-content {
   text-align: left;
+  margin: 0;
 }
 
-ol.ol {
-  display: inline-block;
-  text-align: center;
+.portfolio-header
+{text-align: center;}
+
+
+
+.portfolio-box {
+  display: flex;
+}
+
+.abstract-red {
+   display: flex;
+   flex-direction: column;
+}
+
+.spiral-zany {
+  display: flex;
+   flex-direction: column;
+}
+
+.melted-rainbow {
+  display: flex;
+   flex-direction: column;
+}
+
+
+#contact
+{
+  text-align :left;
 }
