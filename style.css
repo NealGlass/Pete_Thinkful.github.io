@@ -61,12 +61,13 @@ nav a {
 img {
   width: 100%;
   max-width: 200px;
-  height: auto;
-border: 2px solid #003049;
+  height: 100%;
+  border: 2px solid #003049;
   border-color: #003049;
   border-style: solid;
   border-width: 2px;
 }
+
 .image-circle {
   border-radius: 50%;
   border: #003049;
@@ -95,16 +96,27 @@ hr {
   text-align: center;
 }
 
+.bio-section {
+  display: flex;
+}
+
+
 .bio-row {
   display: flex;
   align-items: flex-start; 
-  justify-content: center;
-  gap: 20px;
+  justify-content: left;
+}
+
+
+
+.bio-content {
+  text-align: left;
 }
 
 .bio-img {
   width: 200px;
   border-radius: 50%;
+  display: flex;
 }
 
 
@@ -112,10 +124,7 @@ hr {
   text-align: center;
 }
 
-.bio-content {
-  text-align: left;
-  margin: 0;
-}
+
 
 .portfolio-header
 {text-align: center;}
@@ -140,6 +149,7 @@ hr {
   display: flex;
    flex-direction: column;
 }
+
 
 
 #contact
